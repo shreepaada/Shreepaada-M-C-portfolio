@@ -133,7 +133,7 @@ export default function About() {
 	</span>{" "}
 	and gained professional experience as a{" "}
 	<span className="text-black font-medium">
-		UX Design Intern at Klart'Digi (Klartopedia ERP)
+		UX Design Intern at KlartDigi (Klartopedia ERP)
 	</span>
 	, where I worked on improving ERP workflows, designing reusable UI
 	components, and collaborating closely with developers during
