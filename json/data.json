@@ -1,0 +1,144 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "LifeLink",
+      "role": "UX Researcher & Designer",
+      "duration": "3 Weeks",
+      "desc": [
+        "LifeLink is a blood donation mobile application designed to help people quickly find blood donors and blood banks during emergencies. The project was inspired by the difficulties a friend faced while arranging blood during a critical situation.",
+        "The design process included user research, user flows, paper wireframes, low-fidelity wireframes, and high-fidelity prototypes. The goal was to simplify the process of finding donors, submitting blood requests, and connecting with nearby blood banks.",
+        "The final prototype focused on accessibility, ease of navigation, and reducing the time required for users to respond to urgent blood requests."
+      ],
+      "year": "2026",
+      "preview": "https://www.figma.com/proto/JtnneYIYH0fw9xcGHzbH5k/life-link?node-id=12-258&p=f&t=jimQ1MzosbqGGTpx-1&scaling=min-zoom&content-scaling=fixed&page-id=12%3A72&starting-point-node-id=12%3A232&show-proto-sidebar=1",
+      "thumbnail": "/image/case studies/life link/1.jpg",
+      "caseStudySlides": [
+        "/image/case studies/life link/1.jpg",
+        "/image/case studies/life link/2.jpg",
+        "/image/case studies/life link/3.jpg",
+        "/image/case studies/life link/4.jpg",
+        "/image/case studies/life link/5.jpg",
+        "/image/case studies/life link/6.jpg",
+        "/image/case studies/life link/7.jpg",
+        "/image/case studies/life link/8.jpg",
+        "/image/case studies/life link/9.jpg",
+        "/image/case studies/life link/11.jpg",
+        "/image/case studies/life link/12.jpg",
+        "/image/case studies/life link/13.jpg",
+        "/image/case studies/life link/14.jpg",
+        "/image/case studies/life link/15.jpg",
+        "/image/case studies/life link/16.jpg",
+        "/image/case studies/life link/17.jpg",
+        "/image/case studies/life link/18.jpg",
+        "/image/case studies/life link/19.jpg",
+        "/image/case studies/life link/20.jpg",
+        "/image/case studies/life link/21.jpg",
+        "/image/case studies/life link/22.jpg",
+        "/image/case studies/life link/23.jpg",
+        "/image/case studies/life link/24.jpg",
+        "/image/case studies/life link/25.jpg",
+        "/image/case studies/life link/26.jpg"
+      ],
+      "tech": [
+        "User Research",
+        "User Flow",
+        "Paper Wireframes",
+        "Wireframing",
+        "Prototyping",
+        "Usability Testing",
+        "Figma"
+      ],
+      "slug": "lifelink",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Fam Manager",
+      "role": "UX Researcher & Designer",
+      "duration": "3 Weeks",
+      "desc": [
+        "Fam Manager is a family management platform designed to help families organize important documents, schedules, and events in one secure place. The idea originated from personal challenges in managing family records and appointments.",
+        "The project involved user research, information architecture, paper wireframes, low-fidelity wireframes, mobile and web interface design, and high-fidelity prototypes.",
+        "The final solution enables families to securely store documents, manage schedules, organize events, and access important information through an intuitive user experience."
+      ],
+      "year": "2026",
+      "preview": "https://www.figma.com/design/QmSVXhB86uBoFpm9SkUbHf/Fam-Manager-Lofi-prototype?node-id=162-679&t=VF4onYB2e9ExgcBm-1",
+      "thumbnail": "/image/case studies/fam manager/f1.jpg",
+      "caseStudySlides": [
+        "/image/case studies/fam manager/f1.jpg",
+        "/image/case studies/fam manager/f2.jpg",
+        "/image/case studies/fam manager/f3.jpg",
+        "/image/case studies/fam manager/f4.jpg",
+        "/image/case studies/fam manager/f5.jpg",
+        "/image/case studies/fam manager/f6.jpg",
+        "/image/case studies/fam manager/f7.jpg",
+        "/image/case studies/fam manager/f8.jpg",
+        "/image/case studies/fam manager/f9.jpg",
+        "/image/case studies/fam manager/f10.jpg",
+        "/image/case studies/fam manager/f11.jpg",
+        "/image/case studies/fam manager/f12.jpg",
+        "/image/case studies/fam manager/f13.jpg",
+        "/image/case studies/fam manager/f14.jpg",
+        "/image/case studies/fam manager/f15.jpg",
+        "/image/case studies/fam manager/f16.jpg",
+        "/image/case studies/fam manager/f17.jpg",
+        "/image/case studies/fam manager/f18.jpg",
+        "/image/case studies/fam manager/f19.jpg",
+        "/image/case studies/fam manager/f20.jpg",
+        "/image/case studies/fam manager/f21.jpg",
+        "/image/case studies/fam manager/f22.jpg",
+        "/image/case studies/fam manager/f23.jpg",
+        "/image/case studies/fam manager/f24.jpg",
+        "/image/case studies/fam manager/f25.jpg",
+        "/image/case studies/fam manager/f26.jpg"
+        
+      ],
+      "tech": [
+        "User Research",
+        "Information Architecture",
+        "User Flow",
+        "Paper Wireframes",
+        "Wireframing",
+        "Mobile Design",
+        "Web Design",
+        "Prototyping",
+        "Figma"
+      ],
+      "slug": "fam-manager",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "AgroVision",
+      "role": "ML/Frontend Developer",
+      "duration": "1 year",
+      "desc": [
+        "AgroVision is a precision farming platform designed to help farmers make informed decisions using soil, weather, and crop health data. The project focused on simplifying complex agricultural information into a clear and actionable user experience.",
+        "The platform integrates GIS data, Google Earth Engine, NDVI analysis, and machine learning techniques to provide crop health monitoring, environmental insights, and farm management support through interactive dashboards.",
+        "The project was published at IEEE ICCAMS 2025 and demonstrates the application of AI-driven agricultural analytics, geospatial technologies, and user-centered design to support data-informed farming decisions."
+      ],
+      "year": "2025",
+      "preview": "https://agrovision-opal.vercel.app/dashboard",
+      "thumbnail": "/image/case studies/agrovision/a1.png",
+      "images": [
+        "/image/case studies/agrovision/a1.png",
+        "/image/case studies/agrovision/a2.png",
+        "/image/case studies/agrovision/a3.png",
+        "/image/case studies/agrovision/a4.png",
+        "/image/case studies/agrovision/a5.png"
+      ],
+      "tech": [
+        
+        "Dashboard Design",
+        "Machine Learning",
+        "GIS",
+        "Google Earth Engine",
+        "NDVI",
+        "Data Visualization"
+      ],
+      "slug": "agrovision",
+      "category": [2]
+    }
+  ]
+}
