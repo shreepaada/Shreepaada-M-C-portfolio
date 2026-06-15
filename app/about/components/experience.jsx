@@ -31,7 +31,7 @@ const experiences = [
 	company: "Vertotech Aerospace",
 	position: "Web Development Intern",
 	type: "Internship",
-	location: "Bengaluru, India",
+	location: "Bengaluru",
 	description:
 	"Designed and developed the company's official website using Next.js and TypeScript. Created responsive interfaces, reusable components, and interactive animations with Framer Motion while ensuring a consistent and engaging user experience across devices.",
 	skills: [
