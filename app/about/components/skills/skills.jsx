@@ -44,7 +44,7 @@ const skillCategories = {
 			"Designing solutions across healthcare, education, agriculture, and family management domains",
 		skills: [
 			{ name: "ERP Systems", highlight: true },
-			{ name: "Blood Donation", highlight: true },
+			{ name: "Blood Donation app", highlight: true },
 			{ name: "GIS", highlight: true },
 			{ name: "Google Earth Engine", highlight: true }
 		],

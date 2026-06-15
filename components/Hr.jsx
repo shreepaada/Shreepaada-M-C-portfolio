@@ -35,7 +35,7 @@ export default function Hr({ variant }) {
 						}}></motion.div>
 				</>
 			) : (
-				<div className="flex justify-center items-center flex-col my-5">
+				<div className="flex flex-col items-start my-5">
 					<motion.div
 						className="bg-gray-700 w-20 h-1 rounded-full mb-2"
 						initial={{

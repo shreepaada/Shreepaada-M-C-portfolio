@@ -24,6 +24,26 @@ const experiences = [
 			"Developer Handoff",
 		],
 	},
+	{
+	id: 2,
+	startDate: "Jul 2023",
+	endDate: "Sep 2023",
+	company: "Vertotech Aerospace",
+	position: "Web Development Intern",
+	type: "Internship",
+	location: "Bengaluru, India",
+	description:
+	"Designed and developed the company's official website using Next.js and TypeScript. Created responsive interfaces, reusable components, and interactive animations with Framer Motion while ensuring a consistent and engaging user experience across devices.",
+	skills: [
+		"Next.js",
+		"TypeScript",
+		"React",
+		"Framer Motion",
+		"Responsive Design",
+		"Gsap",
+		"Java Script",
+	],
+},
 ];
 
 experiences.reverse();
