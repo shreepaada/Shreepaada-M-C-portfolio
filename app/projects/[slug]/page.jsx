@@ -5,34 +5,41 @@ import { motion } from "framer-motion";
 import jsonData from "@/json/data.json";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import NotFound from "@/app/not-found";
 import Image from "next/image";
-import BlurImage from "@/public/image/placeholder/blur.jpg";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 
-function ProjectImage({ src, alt, index }) {
-	const [loaded, setLoaded] = useState(false);
-	const handleLoad = useCallback(() => setLoaded(true), []);
+function ProjectImage({ src, alt, mockup = false }) {
+	if (!src || typeof src !== "string") return null;
+
+	if (mockup) {
+		return (
+			<div className="mb-5 flex justify-center">
+				<div className="bg-neutral-100 rounded-[40px] p-3 shadow-2xl">
+					<Image
+						src={src}
+						alt={alt}
+						width={1400}
+						height={1400}
+						className="max-w-[280px] w-full h-auto rounded-[28px]"
+					/>
+				</div>
+			</div>
+		);
+	}
 
 	return (
-		<div className="relative mb-5 max-w-7xl mx-auto w-full">
-			{!loaded && (
-				<div className="absolute inset-0 animate-pulse bg-neutral-300 rounded" />
-			)}
+		<div className="mb-5">
 			<Image
 				src={src}
 				alt={alt}
-				width={1920}
-				height={1080}
-				className={`h-auto w-full object-contain transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
-				placeholder="blur"
-				blurDataURL={BlurImage.src}
-				loading={index === 0 ? "eager" : "lazy"}
-				onLoad={handleLoad}
+				width={1400}
+				height={1400}
+				className="w-full h-auto rounded-2xl"
 			/>
 		</div>
 	);
@@ -191,24 +198,42 @@ function Page(props) {
 	</div>
 )}
 						{data.preview && (
-							<div>
-								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
-									Live Prototype
-								</h2>
-								<p className="text-2xl font-normal text-neutral-900">
-									<a
-										href={data.preview}
-										target="_blank"
-										rel="noopener noreferrer">
-										Preview{" "}
-										<FontAwesomeIcon
-											icon={faArrowUpRightFromSquare}
-											className="ml-3"
-										/>
-									</a>
-								</p>
-							</div>
-						)}
+	<div>
+		<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
+			Links
+		</h2>
+
+		<div className="flex flex-col gap-3 text-2xl font-normal text-neutral-900">
+
+			<a
+				href={data.preview}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Open Prototype
+				<FontAwesomeIcon
+					icon={faArrowUpRightFromSquare}
+					className="ml-3"
+				/>
+			</a>
+
+			{data.pdf && (
+				<a
+					href={data.pdf}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Download Case Study
+					<FontAwesomeIcon
+						icon={faArrowUpRightFromSquare}
+						className="ml-3"
+					/>
+				</a>
+			)}
+
+		</div>
+	</div>
+)}
 						{/* {data.code && (
 							<div>
 								<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400">
@@ -244,48 +269,158 @@ function Page(props) {
 				</div>
 			</div>
 			{/* Case Study */}
-<div className="w-full max-w-6xl mx-auto px-5 md:px-10">
-	<div className="mb-10">
-		<h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400 mb-6">
-			Case Study
-		</h2>
-	</div>
+<div className="w-full max-w-6xl mx-auto px-6 md:px-12">
 
-	<div className="space-y-8">
-		{data.caseStudySlides && (
-  <>
-    <h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400 mb-6">
-      Slides
-    </h2>
+  {data.caseStudy?.map((section, index) => {
 
-    {data.caseStudySlides.map((slide, index) => (
+    // TEXT SECTION
+    if (section.type === "text") {
+      return (
+        <section key={index} className="mb-32">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-6">
+            {section.title}
+          </h2>
+
+          {section.content.map((paragraph, i) => (
+            <p
+              key={i}
+              className="text-xl text-gray-500 leading-relaxed mb-4"
+            >
+              {paragraph}
+            </p>
+          ))}
+        </section>
+      );
+    }
+
+    // SINGLE IMAGE
+    if (section.type === "image") {
+  return (
+    <motion.section
+      key={index}
+      className="mb-40"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.7 }}
+    >
+      <h2 className="text-3xl md:text-5xl font-semibold mb-10">
+        {section.title}
+      </h2>
+
       <ProjectImage
-        key={index}
-        src={slide}
-        alt={`${data.title} Case Study Slide ${index + 1}`}
-        index={index}
+        src={section.image}
+        alt={section.title}
       />
-    ))}
-  </>
-)}
+    </motion.section>
+  );
+}
+	if (section.type === "gallery") {
+  return (
+    <section key={index} className="mb-32">
+      <h2 className="text-3xl md:text-4xl font-semibold mb-8">
+        {section.title}
+      </h2>
 
-{data.images && (
-  <>
-    <h2 className="uppercase font-normal text-lg tracking-[8px] text-neutral-400 mb-6">
-      Screenshots
-    </h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        {section.images.map((img, i) => (
+  <motion.div
+    key={i}
+    initial={{ opacity: 0, y: 80 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ delay: i * 0.15 }}
+  >
+    <ProjectImage
+      src={img}
+      alt={`${section.title}-${i}`}
+    />
+  </motion.div>
+))}
+      </div>
+    </section>
+  );
+}
 
-    {data.images.map((image, index) => (
-      <ProjectImage
-        key={index}
-        src={image}
-        alt={`${data.title} Screenshot ${index + 1}`}
-        index={index}
-      />
-    ))}
-  </>
-)}
-	</div>
+    
+	if (section.type === "feature") {
+  return (
+    <section key={index} className="mb-32">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+
+        <motion.div
+  className="md:col-span-4 md:sticky md:top-24"
+  initial={{ opacity: 0, x: -40 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  viewport={{ once: true }}
+>
+  <h2 className="text-3xl font-semibold mb-4">
+    {section.title}
+  </h2>
+
+  <p className="text-lg text-neutral-600 leading-8">
+    {section.content}
+  </p>
+</motion.div>
+
+<div className="md:col-span-8">
+  <ProjectImage
+  src={section.image}
+  alt={section.title}
+  mockup={true}
+/>
+</div>
+
+      </div>
+    </section>
+  );
+}
+
+    // LOFI → HIFI
+    if (section.type === "comparison") {
+      return (
+        <section key={index} className="mb-32">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-8">
+            {section.title}
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-10">
+
+            <div>
+              <h3 className="text-xl font-medium mb-4 text-center">
+                Low Fidelity
+              </h3>
+
+              <ProjectImage
+                src={section.left}
+                alt="Low Fidelity"
+                index={0}
+              />
+            </div>
+
+            <div>
+              <h3 className="text-xl font-medium mb-4 text-center">
+                High Fidelity
+              </h3>
+
+              <ProjectImage
+                src={section.right}
+                alt="High Fidelity"
+                index={0}
+              />
+            </div>
+
+          </div>
+        </section>
+      );
+    }
+
+    
+	
+
+    return null;
+  })}
+
 </div>
 		</div>
 	);

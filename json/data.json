@@ -12,34 +12,100 @@
       ],
       "year": "2026",
       "preview": "https://www.figma.com/proto/JtnneYIYH0fw9xcGHzbH5k/life-link?node-id=12-258&p=f&t=jimQ1MzosbqGGTpx-1&scaling=min-zoom&content-scaling=fixed&page-id=12%3A72&starting-point-node-id=12%3A232&show-proto-sidebar=1",
+      "pdf": "/docs/life link  case study shreepaada mc.pdf",
       "thumbnail": "/image/case studies/life link/1.jpg",
-      "caseStudySlides": [
-        "/image/case studies/life link/1.jpg",
-        "/image/case studies/life link/2.jpg",
-        "/image/case studies/life link/3.jpg",
-        "/image/case studies/life link/4.jpg",
-        "/image/case studies/life link/5.jpg",
-        "/image/case studies/life link/6.jpg",
-        "/image/case studies/life link/7.jpg",
-        "/image/case studies/life link/8.jpg",
-        "/image/case studies/life link/9.jpg",
-        "/image/case studies/life link/11.jpg",
-        "/image/case studies/life link/12.jpg",
-        "/image/case studies/life link/13.jpg",
-        "/image/case studies/life link/14.jpg",
-        "/image/case studies/life link/15.jpg",
-        "/image/case studies/life link/16.jpg",
-        "/image/case studies/life link/17.jpg",
-        "/image/case studies/life link/18.jpg",
-        "/image/case studies/life link/19.jpg",
-        "/image/case studies/life link/20.jpg",
-        "/image/case studies/life link/21.jpg",
-        "/image/case studies/life link/22.jpg",
-        "/image/case studies/life link/23.jpg",
-        "/image/case studies/life link/24.jpg",
-        "/image/case studies/life link/25.jpg",
-        "/image/case studies/life link/26.jpg"
-      ],
+      "caseStudy": [
+{
+"type": "text",
+"title": "The Problem",
+"content": [
+"During medical emergencies, finding blood donors quickly can be difficult. Existing methods often rely on personal networks, social media posts, and manual coordination, leading to delays when time is critical.",
+"The goal of LifeLink was to create a centralized platform that enables users to locate blood donors, discover nearby blood banks, and respond to urgent requests with minimal friction."
+]
+},
+
+{
+"type": "image",
+"title": "User Persona",
+"image": "/image/case studies/life link new/life link persona.svg"
+},
+
+{
+"type": "image",
+"title": "User Journey Map",
+"image": "/image/case studies/life link new/Life link user journey map.svg"
+},
+
+{
+"type": "image",
+"title": "Paper Wireframes",
+"image": "/image/case studies/life link new/paper wireframes.jpeg"
+},
+
+{
+"type": "gallery",
+"title": "Low Fidelity Wireframes",
+"images": [
+"/image/case studies/life link new/Home Page LOFI.png",
+"/image/case studies/life link new/requests LOFI.png",
+"/image/case studies/life link new/confirm donation LOFI.png"
+]
+},
+
+{
+"type": "comparison",
+"title": "From Lo-Fi to Hi-Fi",
+"left": "/image/case studies/life link new/Home Page LOFI.png",
+"right": "/image/case studies/life link new/Home Page.png"
+},
+
+{
+"type": "feature",
+"title": "Personalized Home Dashboard",
+"content": "The home screen provides immediate access to urgent requests, donation actions, and nearby resources while maintaining a simple and accessible navigation structure.",
+"image": "/image/case studies/life link new/Home Page.png"
+},
+
+{
+"type": "gallery",
+"title": "Blood Request Management",
+"images": [
+"/image/case studies/life link new/requests.png",
+"/image/case studies/life link new/request page 2.png"
+]
+},
+
+{
+"type": "feature",
+"title": "Donation Confirmation Flow",
+"content": "The donation flow helps users verify eligibility and review request information before confirming their participation.",
+"image": "/image/case studies/life link new/confirm donation.png"
+},
+
+{
+"type": "feature",
+"title": "Blood Bank Discovery",
+"content": "Users can search nearby blood banks and access relevant information when immediate assistance is required.",
+"image": "/image/case studies/life link new/Blood Banks.png"
+},
+
+{
+"type": "feature",
+"title": "Profile & Impact Tracking",
+"content": "The profile section enables users to manage personal information, view donation history, and track their contributions.",
+"image": "/image/case studies/life link new/profile.png"
+},
+
+{
+"type": "text",
+"title": "Reflection",
+"content": [
+"This project strengthened my understanding of designing for high-pressure situations where users need information quickly and decisions must be made with confidence.",
+"Future improvements include real-time donor matching, location-based notifications, blood inventory integration, and emergency alert systems."
+]
+}
+],
+
       "tech": [
         "User Research",
         "User Flow",
@@ -53,92 +119,219 @@
       "category": [1]
     },
     {
-      "show": true,
-      "title": "Fam Manager",
-      "role": "UX Researcher & Designer",
-      "duration": "3 Weeks",
-      "desc": [
-        "Fam Manager is a family management platform designed to help families organize important documents, schedules, and events in one secure place. The idea originated from personal challenges in managing family records and appointments.",
-        "The project involved user research, information architecture, paper wireframes, low-fidelity wireframes, mobile and web interface design, and high-fidelity prototypes.",
-        "The final solution enables families to securely store documents, manage schedules, organize events, and access important information through an intuitive user experience."
-      ],
-      "year": "2026",
-      "preview": "https://www.figma.com/design/QmSVXhB86uBoFpm9SkUbHf/Fam-Manager-Lofi-prototype?node-id=162-679&t=VF4onYB2e9ExgcBm-1",
-      "thumbnail": "/image/case studies/fam manager/f1.jpg",
-      "caseStudySlides": [
-        "/image/case studies/fam manager/f1.jpg",
-        "/image/case studies/fam manager/f2.jpg",
-        "/image/case studies/fam manager/f3.jpg",
-        "/image/case studies/fam manager/f4.jpg",
-        "/image/case studies/fam manager/f5.jpg",
-        "/image/case studies/fam manager/f6.jpg",
-        "/image/case studies/fam manager/f7.jpg",
-        "/image/case studies/fam manager/f8.jpg",
-        "/image/case studies/fam manager/f9.jpg",
-        "/image/case studies/fam manager/f10.jpg",
-        "/image/case studies/fam manager/f11.jpg",
-        "/image/case studies/fam manager/f12.jpg",
-        "/image/case studies/fam manager/f13.jpg",
-        "/image/case studies/fam manager/f14.jpg",
-        "/image/case studies/fam manager/f15.jpg",
-        "/image/case studies/fam manager/f16.jpg",
-        "/image/case studies/fam manager/f17.jpg",
-        "/image/case studies/fam manager/f18.jpg",
-        "/image/case studies/fam manager/f19.jpg",
-        "/image/case studies/fam manager/f20.jpg",
-        "/image/case studies/fam manager/f21.jpg",
-        "/image/case studies/fam manager/f22.jpg",
-        "/image/case studies/fam manager/f23.jpg",
-        "/image/case studies/fam manager/f24.jpg",
-        "/image/case studies/fam manager/f25.jpg",
-        "/image/case studies/fam manager/f26.jpg"
-        
-      ],
-      "tech": [
-        "User Research",
-        "Information Architecture",
-        "User Flow",
-        "Paper Wireframes",
-        "Wireframing",
-        "Mobile Design",
-        "Web Design",
-        "Prototyping",
-        "Figma"
-      ],
-      "slug": "fam-manager",
-      "category": [1]
-    },
+  "show": true,
+  "title": "Fam Manager",
+  "role": "UX Researcher & Designer",
+  "duration": "3 Weeks",
+  "desc": [
+    "Fam Manager is a family management platform designed to help families organize important documents, schedules, and events in one secure place. The idea originated from personal challenges in managing family records and appointments.",
+    "The project involved user research, information architecture, paper wireframes, low-fidelity wireframes, mobile and web interface design, and high-fidelity prototypes.",
+    "The final solution enables families to securely store documents, manage schedules, organize events, and access important information through an intuitive user experience."
+  ],
+  "year": "2026",
+  "preview": "https://www.figma.com/design/QmSVXhB86uBoFpm9SkUbHf/Fam-Manager-Lofi-prototype?node-id=162-679&t=VF4onYB2e9ExgcBm-1",
+  "pdf": "/docs/fam manager case study shreepaada mc.pdf",
+  "thumbnail": "/image/case studies/fam manager/f1.jpg",
+
+  "caseStudy": [
+
     {
-      "show": true,
-      "title": "AgroVision",
-      "role": "ML/Frontend Developer",
-      "duration": "1 year",
-      "desc": [
-        "AgroVision is a precision farming platform designed to help farmers make informed decisions using soil, weather, and crop health data. The project focused on simplifying complex agricultural information into a clear and actionable user experience.",
-        "The platform integrates GIS data, Google Earth Engine, NDVI analysis, and machine learning techniques to provide crop health monitoring, environmental insights, and farm management support through interactive dashboards.",
-        "The project was published at IEEE ICCAMS 2025 and demonstrates the application of AI-driven agricultural analytics, geospatial technologies, and user-centered design to support data-informed farming decisions."
-      ],
-      "year": "2025",
-      "preview": "https://agrovision-opal.vercel.app/dashboard",
-      "thumbnail": "/image/case studies/agrovision/a1.png",
+      "type": "text",
+      "title": "The Problem",
+      "content": [
+        "Families often struggle to keep important documents, schedules, and records organized across multiple locations and platforms.",
+        "The goal of Fam Manager was to create a centralized solution that enables families to securely manage documents, appointments, events, and essential information in one place."
+      ]
+    },
+
+    {
+      "type": "image",
+      "title": "User Persona",
+      "image": "/image/case studies/fam manager new/fam manager persona.svg"
+    },
+
+    {
+      "type": "image",
+      "title": "User Journey Map",
+      "image": "/image/case studies/fam manager new/user journey fam manager.svg"
+    },
+
+    {
+      "type": "gallery",
+      "title": "Core Experience",
       "images": [
-        "/image/case studies/agrovision/a1.png",
-        "/image/case studies/agrovision/a2.png",
-        "/image/case studies/agrovision/a3.png",
-        "/image/case studies/agrovision/a4.png",
-        "/image/case studies/agrovision/a5.png"
-      ],
-      "tech": [
-        
-        "Dashboard Design",
-        "Machine Learning",
-        "GIS",
-        "Google Earth Engine",
-        "NDVI",
-        "Data Visualization"
-      ],
-      "slug": "agrovision",
-      "category": [2]
+        "/image/case studies/fam manager new/landing page fam manager.png",
+        "/image/case studies/fam manager new/welcome page.png",
+        "/image/case studies/fam manager new/home page.png"
+      ]
+    },
+
+    {
+      "type": "feature",
+      "title": "Document Dashboard",
+      "content": "The dashboard serves as the central hub where families can quickly access and organize important records.",
+      "image": "/image/case studies/fam manager new/docs home page.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Personal Documents",
+      "content": "Users can securely store personal documents such as identification cards, certificates, and other essential records.",
+      "image": "/image/case studies/fam manager new/personal docs.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Government Documents",
+      "content": "Government-issued records are categorized separately to improve discoverability and organization.",
+      "image": "/image/case studies/fam manager new/gov ids.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Medical Records",
+      "content": "Medical documents are organized in a dedicated section, making them easily accessible during appointments and emergencies.",
+      "image": "/image/case studies/fam manager new/medical docs.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Family Documents",
+      "content": "Shared family records can be securely stored and accessed by family members when needed.",
+      "image": "/image/case studies/fam manager new/family docs.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Add New Documents",
+      "content": "A simple upload workflow allows users to add and categorize documents with minimal effort.",
+      "image": "/image/case studies/fam manager new/add docs.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Event Management",
+      "content": "Families can manage appointments, reminders, and important events through a centralized scheduling experience.",
+      "image": "/image/case studies/fam manager new/events.png"
+    },
+
+    {
+      "type": "feature",
+      "title": "Create Events",
+      "content": "Users can quickly create and organize new events, ensuring family schedules remain coordinated.",
+      "image": "/image/case studies/fam manager new/add events.png"
+    },
+
+    {
+      "type": "text",
+      "title": "Reflection",
+      "content": [
+        "This project strengthened my understanding of information architecture and designing systems that manage large amounts of personal information.",
+        "Future improvements include cloud synchronization, family permissions, document sharing, automated reminders, and smart notifications."
+      ]
     }
+
+  ],
+
+  "tech": [
+    "User Research",
+    "Information Architecture",
+    "User Flow",
+    "Paper Wireframes",
+    "Wireframing",
+    "Mobile Design",
+    "Web Design",
+    "Prototyping",
+    "Figma"
+  ],
+
+  "slug": "fam-manager",
+  "category": [1]
+},
+    
+    {
+  "show": true,
+  "title": "AgroVision",
+  "role": "ML/Frontend Developer",
+  "duration": "1 Year",
+  "desc": [
+    "AgroVision is a precision farming platform designed to help farmers make informed decisions using soil, weather, and crop health data. The project focused on simplifying complex agricultural information into a clear and actionable user experience.",
+    "The platform integrates GIS data, Google Earth Engine, NDVI analysis, and machine learning techniques to provide crop health monitoring, environmental insights, and farm management support through interactive dashboards.",
+    "The project was published at IEEE ICCAMS 2025 and demonstrates the application of AI-driven agricultural analytics, geospatial technologies, and user-centered design to support data-informed farming decisions."
+  ],
+  "year": "2025",
+  "preview": "https://agrovision-opal.vercel.app/dashboard",
+  "thumbnail": "/image/case studies/agrovision/a1.png",
+
+  "caseStudy": [
+
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": [
+        "Modern farming generates large amounts of environmental and crop-related data, but most farmers lack accessible tools to convert that information into actionable insights.",
+        "The goal of AgroVision was to create a platform that combines GIS, NDVI analysis, weather information, and machine learning into a single intuitive dashboard."
+      ]
+    },
+    
+
+    {
+      "type": "image",
+      "title": "Dashboard",
+      
+      "image": "/image/case studies/agrovision/a1.png"
+    },
+
+    {
+      "type": "image",
+      "title": "Select your coordinates using the map or enter the values manually",
+      
+      "image": "/image/case studies/agrovision/a2.png"
+    },
+
+    {
+      "type": "image",
+      "title": "Findings from the model",
+      
+      "image": "/image/case studies/agrovision/a3.png"
+    },
+
+    {
+      "type": "image",
+      "title": "Environmental and soil Insights",
+      
+      "image": "/image/case studies/agrovision/a5.png"
+    },
+
+    {
+      "type": "image",
+      "title": "About page",
+      
+      "image": "/image/case studies/agrovision/a4.png"
+    },
+
+    {
+      "type": "text",
+      "title": "Impact",
+      "content": [
+        "AgroVision demonstrates how AI, geospatial technologies, and data visualization can be combined to support precision agriculture.",
+        "The project was published at IEEE ICCAMS 2025 and highlights the value of user-centered design in agricultural technology solutions."
+      ]
+    }
+
+  ],
+
+  "tech": [
+    "Dashboard Design",
+    "Machine Learning",
+    "GIS",
+    "Google Earth Engine",
+    "NDVI",
+    "Data Visualization"
+  ],
+
+  "slug": "agrovision",
+  "category": [2]
+}
   ]
 }
