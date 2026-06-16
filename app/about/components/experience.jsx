@@ -97,10 +97,10 @@ function TimelineCard({ experience, index, isEven }) {
 						<div className="text-xs text-gray-300">End</div>
 					</div>					<div className="w-px h-8 bg-gray-500"></div>
 					<div className="text-center">
-						<div className="text-sm font-medium text-gray-400">
+						<div className="text-sm font-medium text-white">
 							{experience.location}
 						</div>
-						<div className="text-xs text-gray-300">Location</div>
+						<div className="text-xs text-gray-300"></div>
 					</div>
 				</div>
 			</div>
