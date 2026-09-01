@@ -116,58 +116,47 @@ export default function About() {
 <p className="text-gray-600 text-justify title text-lg leading-relaxed">
 	I am an{" "}
 	<span className="text-black font-medium">
-		Entry-Level UX Designer{" "}
-	</span>
-	with hands-on experience designing mobile and web applications
-	through the complete design process, from{" "}
-	<span className="text-black font-medium">
-		user research to high-fidelity prototypes
-	</span>
-	. I enjoy solving real user problems through simple, intuitive, and
-	user-centered design solutions.
-	<br />
-	<br />
-	I completed the{" "}
-	<span className="text-black font-medium">
-		Google UX Design Certificate
+		Entry-Level Software Engineer
 	</span>{" "}
-	and gained professional experience as a{" "}
-	<span className="text-black font-medium">
-		UX Design Intern at KlartDigi (Klartopedia ERP)
-	</span>
-	, where I worked on improving ERP workflows, designing reusable UI
-	components, and collaborating closely with developers during
-	implementation. I contributed to certificate and report generation
-	features while identifying usability issues and recommending
-	improvements to enhance the overall user experience.
+	with hands-on experience building web applications, REST APIs, and
+	machine learning solutions. I enjoy turning real-world problems into
+	scalable, efficient, and user-focused software using modern technologies.
 	<br />
 	<br />
-	My portfolio showcases projects including{" "}
+	I gained professional experience as a{" "}
 	<span className="text-black font-medium">
-		LifeLink
+		UX Design Intern at Klart'Digi (Klartopedia ERP)
 	</span>
-	, a blood donation app created to help users find donors and blood
-	banks during emergencies,{" "}
+	, where I worked on improving ERP workflows, creating wireframes and
+	interactive prototypes, and developing reusable Angular and Syncfusion
+	components. I also contributed to automated document generation features
+	and worked closely with developers to improve the reliability and usability
+	of platform features.
+	<br />
+	<br />
+	My portfolio includes{" "}
+	<span className="text-black font-medium">AgroVision</span>, an
+	AI-powered precision farming platform,{" "}
 	<span className="text-black font-medium">
-		Fam Manager
+		Formula 1 Race Winner Prediction
 	</span>
-	, a family management platform for organizing documents and schedules,
-	and{" "}
+	, an end-to-end machine learning application, and{" "}
+	<span className="text-black font-medium">Task Manager</span>, a full-stack
+	application built with React, TypeScript, Spring Boot, JPA/Hibernate, and
+	MySQL. I also showcase{" "}
+	<span className="text-black font-medium">LifeLink</span> and{" "}
+	<span className="text-black font-medium">Fam Manager</span> as UX-focused
+	case studies. I hold a{" "}
 	<span className="text-black font-medium">
-		AgroVision
-	</span>
-	, a precision farming platform that leverages GIS, Google Earth
-	Engine, and NDVI data to help farmers make informed decisions. I hold
-	a{" "}
-	<span className="text-black font-medium">
-		B.Tech in Computer Science Engineering
+		B.Tech in Computer Science and Engineering
 	</span>{" "}
 	from{" "}
+	<span className="text-black font-medium">Dayanand Sagar University</span>{" "}
+	and have completed the{" "}
 	<span className="text-black font-medium">
-		Dayananda Sagar University
-	</span>{" "}
-	and continue to grow my skills in UX research, interaction design,
-	prototyping, and usability testing.
+		Google UX Design Professional Certificate
+	</span>
+	.
 </p>
 
 				</motion.div>

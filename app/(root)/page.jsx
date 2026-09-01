@@ -83,18 +83,14 @@ const MyPage = () => {
 								delay: 0.2,
 								type: "spring",
 							}}>
-							Shreepaada M C
+							
 						</motion.h3>
 						<motion.h1
-							className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl font-bold my-2 md:my-5"
-							initial={{ x: -100, opacity: 0 }}
-							whileInView={{ x: 0, opacity: 1 }}
-							transition={{
-								delay: 0.3,
-								type: "spring",
-							}}>
-							UX Designer
-						</motion.h1>
+  className="text-black text-4xl md:text-6xl lg:text-6xl 2xl:text-8xl font-bold my-2 md:my-5"
+>
+  Shreepaada M C
+  <br />
+</motion.h1>
 						<motion.p
 							className="title text-md 2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
 							initial={{ x: -100, opacity: 0 }}
@@ -103,12 +99,10 @@ const MyPage = () => {
 								delay: 0.4,
 								type: "spring",
 							}}>
-							Hi! I’m Shreepaada, a UX Designer passionate about
-creating intuitive and user-centered digital
-experiences. I enjoy solving real user problems
-through research, wireframing, prototyping, and
-usability testing while designing products that are
-simple, accessible, and meaningful.
+							A Recent Computer Science graduate seeking a Software Engineer / Full-Stack Developer role. 
+Experienced in building scalable web applications, machine learning systems, and REST APIs using Java, 
+Spring Boot, Python, React, and modern frontend technologies. Passionate about developing 
+production-ready software and solving real-world problems through clean, efficient code.  
 						</motion.p>
 						<motion.div
 							className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -168,9 +162,7 @@ simple, accessible, and meaningful.
 					delay: 0.2,
 					type: "spring",
 				}}>
-				A brief introduction to my journey as a UX Designer,
-				focusing on user research, interaction design, and
-				creating meaningful digital experiences.
+				Learn more about my journey as a Computer Science graduate and aspiring Software Engineer, where I combine full-stack development, machine learning, and UX design to build scalable, user-focused applications that solve real-world problems.
 			</motion.p>
 
 			<motion.div
@@ -211,7 +203,7 @@ simple, accessible, and meaningful.
 					delay: 0.2,
 					type: "spring",
 				}}>
-				Explore my UX case studies and projects, including
+				Explore my projects across full-stack development, machine learning, and UX design, including AgroVision, Formula 1 Race Winner Prediction, Task Manager, LifeLink, and Fam Manager.
 				<span>
 					{" "}
 					LifeLink, Fam Manager, and AgroVision.

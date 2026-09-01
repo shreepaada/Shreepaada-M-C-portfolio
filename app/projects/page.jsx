@@ -52,14 +52,14 @@ export default function Page() {
 					</div>
 					<div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
 						<h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-black text-5xl md:text-8xl font-bold">
-							Projects & Case Studies
+							Projects
 						</h1>
 						<Hr />
 						<p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
-							A collection of UX case studies, research projects, and software products showcasing my work in{" "}
+							A collection of projects showcasing my work across software development, machine learning, and user-centered design{" "}
 							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
 								{" "}
-								design, development, and problem-solving.
+								
 							</span>
 						</p>
 						<motion.div

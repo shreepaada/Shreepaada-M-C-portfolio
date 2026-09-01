@@ -56,9 +56,9 @@ export default function Page() {
 						</h1>
 						<Hr />
 						<p className="title text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5 ">
-	A brief introduction to my journey as a{" "}
+	A brief introduction to my journey{" "}
 	<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-		UX Designer.
+		
 	</span>
 </p>
 						<motion.div
