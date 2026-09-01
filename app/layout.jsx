@@ -24,7 +24,7 @@ const jost = Jost({
 });
 
 export const metadata = {
-	title: "Shreepaada M C | UX Designer",
+	title: "Shreepaada M C",
 
 	description:
 		"UX Designer focused on user research, wireframing, prototyping, usability testing, and creating user-centered digital experiences.",
