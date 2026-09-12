@@ -21,7 +21,7 @@ const category = {
 };
 
 export default function Page() {
-	const [activeCategory, setActiveCategory] = useState(1);
+	const [activeCategory, setActiveCategory] = useState(2);
 	const projects = Projects.Projects.filter((item) => item.show === true);
 
 	useEffect(() => {

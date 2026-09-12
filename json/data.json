@@ -330,6 +330,191 @@
 
   "slug": "agrovision",
   "category": [2]
+},
+{
+  "show": true,
+  "title": "Retail Demand Forecasting & Inventory Intelligence",
+  "role": "ML Developer",
+  "duration": "4 Weeks",
+  
+  "desc": [
+    "Retail Demand Forecasting & Inventory Intelligence is a machine learning platform designed to estimate next-day sales across retail stores and product families using historical sales, promotions, and time-based patterns.",
+    "The project combines time-series feature engineering with LightGBM to analyze historical sales and generate store- and product-specific sales estimates through a Flask API and React dashboard.",
+    "The final tuned LightGBM model achieved a validation RMSLE of 0.3763 using lag features, rolling statistics, calendar features, and promotion data."
+  ],
+  "year": "2026",
+  "preview": "https://github.com/shreepaada/retail_demand_forecasting",
+  "thumbnail": "/image/home_retail1.jpeg",
+  "caseStudy": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": [
+        "Retail businesses struggle to accurately predict sales across different stores and product categories.",
+    "Changes in customer demand, seasonality, promotions, and past sales patterns make inventory planning difficult.",
+    "The challenge was to build a machine learning solution that could use historical sales data to predict next-day sales and support better inventory decisions."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Retail Sales Dashboard",
+      "image": "/image/home_retail1.jpeg"
+    },
+    {
+      "type": "text",
+      "title": "Exploratory Data Analysis",
+      "content": [
+        "The dataset contains daily sales records across 54 stores and 33 product families from 2013 to 2017.",
+        "Analysis revealed long-term sales growth, strong weekly seasonality, large differences between product families and stores, and a relationship between promotion activity and sales."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Historical Sales Analysis",
+      "image": "/image/home_retail2.jpeg"
+    },
+    {
+      "type": "text",
+      "title": "Feature Engineering",
+      "content": [
+        "The forecasting pipeline uses calendar features, historical lag values, and rolling statistics calculated separately for each store and product family.",
+        "Lag features include 1, 7, 14, 28, and 365 days, while rolling 7-day and 28-day statistics capture recent sales behavior. Historical features are shifted before calculation to prevent target leakage."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Model Development",
+      "content": [
+        "Multiple models were evaluated using chronological validation, including Seasonal Naive, Linear Regression, Random Forest, XGBoost, and LightGBM.",
+        "LightGBM was progressively tuned across tree complexity, learning rate, estimator count, and regularization parameters. The final configuration used 128 leaves, a 0.04 learning rate, 1,500 estimators, and a log-transformed sales target."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Sales Forecast & Model Output",
+      "image": "/image/home_retail3.jpeg"
+    },
+    {
+      "type": "text",
+      "title": "Results",
+      "content": [
+        "The tuned LightGBM model achieved a validation RMSLE of 0.3763 and RMSE of 219.57.",
+        "The model was retrained on the combined processed training and validation data and exposed through a Flask inference API."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Dashboard",
+      "content": [
+        "The React dashboard allows users to select a store, product family, and promotion count, then generate a next-day estimated sales value.",
+        "Historical recorded sales are displayed alongside supporting 7-day and 30-day statistics, while the model estimate is highlighted as the primary output."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Reflection",
+      "content": [
+        "This project strengthened my understanding of time-series forecasting, leakage prevention, model evaluation, feature engineering, and deploying machine learning models through APIs.",
+        "Future improvements include recursive multi-day forecasting, automated promotion inputs, inventory-aware demand estimation, and richer forecasting uncertainty analysis."
+      ]
+    }
+  ],
+  "tech": [
+    "Python",
+    "LightGBM",
+    "XGBoost",
+    "Scikit-learn",
+    "Time Series Forecasting",
+    "Flask",
+    "React",
+    "TypeScript"
+  ],
+  "slug": "retail-demand-forecasting",
+  "category": [2]
+},
+{
+  "show": true,
+  "title": "F1 Race Winner Prediction",
+  "role": "ML Developer",
+  "duration": "4 Weeks",
+  "desc": [
+    "F1 Race Winner Prediction is a machine learning system designed to estimate a driver's probability of winning a Formula 1 race using historical race, qualifying, driver, constructor, championship, and circuit data.",
+    "The project combines feature engineering with tuned CatBoost and XGBoost classification models and exposes predictions through a Flask API with an interactive React dashboard.",
+    "The dashboard makes the prediction process transparent by displaying the 36 engineered features used by the model before presenting the predicted win probability."
+  ],
+  "year": "2026",
+  "preview": "https://github.com/shreepaada/f1-winner-prediction",
+  "thumbnail": "/image/f11.jpeg",
+  "caseStudy": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": [
+        "Formula 1 race outcomes depend on many interacting factors, including qualifying performance, starting position, driver form, constructor strength, and championship position.",
+        "The goal was to build a machine learning system that could combine these signals and estimate a driver's probability of winning a race."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "F1 Prediction Dashboard",
+      "image": "/image/f11.jpeg"
+    },
+    {
+      "type": "text",
+      "title": "Feature Engineering",
+      "content": [
+        "The system builds a per-driver-per-race feature table from historical F1 datasets.",
+        "The final model uses 36 engineered features covering race information, starting position, qualifying performance, driver historical performance, driver championship statistics, constructor performance, and constructor championship statistics.",
+        "Historical driver and constructor statistics are calculated using information available before the corresponding race to reduce target leakage."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Model Features",
+      "image": "/image/f12.jpeg"
+    },
+    {
+      "type": "text",
+      "title": "Model Development",
+      "content": [
+        "CatBoost and XGBoost classification models were trained to predict whether a driver would win a race.",
+        "The application supports both tuned models through the same prediction interface."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Prediction",
+      "content": [
+        "Users select a driver, race, and prediction model. The backend retrieves the corresponding engineered feature row and passes the 36 features to the selected model in the same order used during training.",
+        "The result is presented as a win probability together with key race, qualifying, driver, and constructor information."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Prediction Result",
+      "image": "/image/f16.jpeg"
+    },
+    {
+      "type": "text",
+      "title": "Reflection",
+      "content": [
+        "This project strengthened my understanding of feature engineering, classification, historical sports data, model evaluation, API development, and building transparent machine learning interfaces.",
+        "A key focus was making the model inputs visible so users can understand which factors contribute to each prediction."
+      ]
+    }
+  ],
+  "tech": [
+    "Python",
+    "NumPy",
+    "Scikit-learn",
+    "XGBoost",
+    "CatBoost",
+    "Flask",
+    "React",
+    "JavaScript"
+  ],
+  "slug": "f1-race-winner-prediction",
+  "category": [2]
 }
   ]
 }
