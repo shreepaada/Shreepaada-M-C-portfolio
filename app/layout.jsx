@@ -27,7 +27,7 @@ export const metadata = {
 	title: "Shreepaada M C",
 
 	description:
-		"UX Designer focused on user research, wireframing, prototyping, usability testing, and creating user-centered digital experiences.",
+		"Software Engineer focused on machine learning, full-stack development, REST APIs, and building user-centered digital experiences.",
 
 	applicationName: "Shreepaada Portfolio",
 
