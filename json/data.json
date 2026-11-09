@@ -515,6 +515,182 @@
   ],
   "slug": "f1-race-winner-prediction",
   "category": [2]
+},
+
+{
+  "show": true,
+  "title": "FinFlow AI",
+  "role": "AI/ML & Full-Stack Developer",
+  "duration": "Ongoing",
+  "year": "2026",
+  "desc": [
+    "FinFlow AI is an AI-powered financial operations platform designed to help freelancers and independent professionals streamline invoice processing and financial reconciliation.",
+    "The platform combines document processing, retrieval-augmented generation (RAG), and AI-assisted workflows with a deterministic reconciliation engine to match invoices and payments, identify discrepancies, and support financial operations.",
+    "Built with React, TypeScript, Node.js, Express, PostgreSQL, Prisma, LangChain, Ollama, and FAISS, the project explores reliable financial automation through exact and fuzzy matching, payment allocation, and intelligent document analysis."
+  ],
+  "preview": "https://github.com/shreepaada/Finflow-ai",
+  "thumbnail": "/image/1.png",
+  "caseStudy": [
+    {
+      "type": "text",
+      "title": "The Problem",
+      "content": [
+        "Freelancers and independent professionals often manage invoices, bank transactions, and financial records across different platforms. Manually matching payments with invoices can become time-consuming and error-prone as financial records grow.",
+        "FinFlow AI was developed to explore how AI-assisted document processing and automated reconciliation could simplify financial operations while maintaining accuracy, transparency, and human oversight."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Overview Dashboard",
+      "image": "/image/1.png"
+    },
+    {
+      "type": "text",
+      "title": "Dashboard Overview",
+      "content": [
+        "The Overview dashboard provides a snapshot of the workspace's financial activity.",
+        "It displays key indicators including total invoices, payment completion, paid invoice value, outstanding balances, transaction count, and open exceptions, helping users quickly understand their financial position."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Reconciliation",
+      "image": "/image/2.png"
+    },
+    {
+      "type": "text",
+      "title": "Reconciliation Engine",
+      "content": [
+        "The reconciliation engine compares invoice records against imported bank transactions and generates proposed invoice-to-transaction matches.",
+        "It uses matching logic to identify potential allocations and duplicate candidates. Reconciliation runs save proposed matches without immediately changing invoice payment statuses, allowing financial updates to remain controlled until allocations are approved."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Allocations",
+      "image": "/image/3.png"
+    },
+    {
+      "type": "text",
+      "title": "Allocation Review",
+      "content": [
+        "The Allocations dashboard provides a review interface for proposed invoice-to-bank transaction matches.",
+        "Users can inspect invoice details, vendors, transaction references, amounts, invoice statuses, and allocation statuses. Approving an allocation updates the corresponding invoice payment status and creates an audit record, while rejected allocations preserve the review history."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Transactions",
+      "image": "/image/4.png"
+    },
+    {
+      "type": "text",
+      "title": "Transaction Management",
+      "content": [
+        "The Transactions dashboard displays imported bank transaction records with their descriptions, references, dates, debit or credit direction, amounts, and currencies.",
+        "These records serve as the financial data source for reconciliation, helping users identify relevant payments and compare them against recorded invoices."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Invoices",
+      "image": "/image/5.png"
+    },
+    {
+      "type": "text",
+      "title": "Invoice Management",
+      "content": [
+        "The Invoices dashboard centralizes vendor invoice records and provides visibility into invoice amounts, issue dates, due dates, payment statuses, and outstanding balances.",
+        "It helps users monitor payment progress and identify invoices that require review or reconciliation."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Exceptions",
+      "image": "/image/exception.png"
+    },
+    {
+      "type": "text",
+      "title": "Exception Handling",
+      "content": [
+        "The Exceptions section provides a dedicated workflow for reviewing reconciliation issues such as potential duplicate transactions, unmatched records, and discrepancies.",
+        "Users can investigate flagged cases, record resolution notes, and track exception status changes to ensure unresolved financial issues receive attention."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Audit Log",
+      "image": "/image/6.png"
+    },
+    {
+      "type": "text",
+      "title": "Audit & Traceability",
+      "content": [
+        "The Audit Log maintains a historical record of important workspace activities and system events.",
+        "It captures actions such as reconciliation runs, allocation approvals or rejections, and exception resolutions, along with associated entities and event details. This provides traceability and supports transparent financial workflows."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "AI Assistant",
+      "image": "/image/ai assistant.png"
+    },
+    {
+      "type": "text",
+      "title": "AI-Powered Financial Assistant",
+      "content": [
+        "The AI Assistant enables users to ask questions about their workspace's financial information using natural language.",
+        "Retrieval-augmented generation (RAG) allows the assistant to retrieve relevant financial context and reference uploaded financial documents. Its read-only functionality keeps AI interactions separate from financial operations."
+      ]
+    },
+    {
+      "type": "image",
+      "title": "Document Management",
+      "image": "/image/documents.png"
+    },
+    {
+      "type": "text",
+      "title": "Document Processing",
+      "content": [
+        "The Documents section allows users to upload financial documents such as invoices in PDF format.",
+        "Uploaded files are processed and indexed into a workspace-specific vector store, enabling document retrieval through the AI Assistant. The interface displays document names, file types, processing statuses, and upload timestamps."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Technical Architecture",
+      "content": [
+        "FinFlow AI uses a modular architecture with a React and TypeScript frontend, Node.js and Express backend, PostgreSQL database, and Prisma ORM.",
+        "Financial reconciliation is handled through a dedicated TypeScript engine, while LangChain, Ollama, and FAISS support AI-assisted document retrieval and financial analysis.",
+        "A key architectural decision was to separate deterministic financial operations from AI-generated responses. This helps maintain predictable reconciliation behavior while allowing AI to assist with document understanding and information retrieval."
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Reflection",
+      "content": [
+        "FinFlow AI strengthened my understanding of financial data processing, backend architecture, AI integration, document retrieval, and the importance of deterministic business logic in AI-assisted applications.",
+        "Future improvements include enhanced reconciliation confidence scoring, human approval workflows, stronger audit controls, improved document extraction accuracy, and expanded financial analytics."
+      ]
+    }
+  ],
+  "tech": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Prisma",
+    "LangChain",
+    "RAG",
+    "Ollama",
+    "FAISS",
+    "AI Agents",
+    "Document Processing",
+    "Financial Reconciliation"
+  ],
+  "slug": "finflow-ai",
+  "category": [2]
 }
   ]
 }
