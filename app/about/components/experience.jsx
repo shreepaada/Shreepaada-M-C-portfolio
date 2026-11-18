@@ -26,8 +26,8 @@ const experiences = [
 	},
 	{
 	id: 2,
-	startDate: "Jul 2023",
-	endDate: "Sep 2023",
+	startDate: "Jan 2024",
+	endDate: "Mar 2024",
 	company: "Vertotech Aerospace",
 	position: "Web Development Intern",
 	type: "Internship",
